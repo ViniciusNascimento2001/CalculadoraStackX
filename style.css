@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo{
+    background-color: purple;
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.calculadora{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#historico{
+    position: absolute;
+    background-color: white;
+    color: black;
+    top: 23%;
+    right: 10%;    
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+    width: 240px;    
+    border: 2px black solid;
+}
+
+.botao{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background-color: rgb(31, 31, 31);
+    border: none;
+    color: white;
+}
+
+.botao:hover{
+    background-color: black;
+}
+
+.bigbotao {
+    width: 106px;;
+}
+
+#resultado{
+    width: 207px;
+    background-color: white;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 269px){
+    .calculadora{
+        left: 51%;
+    }
+
+    #historico{ 
+        top:91%;
+        right: -0.5%;
+        left: 49%;
+    }
+}
+
+@media only screen and (min-width:270px) and (max-width: 280px){
+    .calculadora{
+        left: 49%;
+    }
+
+    #historico{
+        top:90%;
+        right: -0.5%;
+        left: 47%;
+    }
+}
+
+@media only screen and (min-width:281px) and (max-width: 376px){
+    .calculadora{
+        left: 47%;
+    }
+
+    #historico{
+        top:90%;
+        right: -0.5%;
+        left: 45%;
+    }
+}
+
+@media only screen and (min-width:316px) and (max-width: 376px){
+    .calculadora{
+        left: 42%;
+    }
+
+    #historico{        
+        top:90%;
+        right: -0.5%;
+        left: 40%;
+    }
+}
+
+@media only screen and (min-width:377px) and (max-width: 378px){
+    #historico{
+        top:90%;
+        right: -0.5%;        
+    }
+}
+
+@media only screen and (min-width:379px) and (max-width: 389px){
+    #historico{
+        top:90%;
+        right: 0%;
+    }
+}
+
+@media only screen and (min-width:383px) and (max-width: 389px){
+    #historico{
+        top:90%;
+        right: 1%;
+    }
+}
+
+@media only screen and (min-width:390px) and (max-width: 404px){
+    #historico{
+        top:90%;
+        right: 3%;
+    }
+}
+
+@media only screen and (min-width:405px) and (max-width: 424px){
+    #historico{
+        top:90%;
+        right: 6%;
+    }
+}
+
+@media only screen and (min-width:425px) and (max-width: 460px){
+    #historico{
+        top:90%;
+        right: 11%;
+    }
+}
+
+@media only screen and (min-width:461px) and (max-width: 505px){
+    #historico{        
+        top:90%;
+        right: 15%;
+    }
+}
+
+@media only screen and (min-width:506px) and (max-width: 545px){
+    #historico{
+        top:90%;
+        right: 20%;
+    }
+}
+
+@media only screen and (min-width:546px) and (max-width: 599px){
+    #historico{
+        top:90%;
+        right: 23%;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:648px){
+    #historico{
+        left: 79%;
+    }
+}
+
+@media only screen and (min-width:649px) and (max-width:739px){
+    #historico{
+        left: 75%;
+    }
+}
+
+@media only screen and (min-width:740px) and (max-width:789px){
+    #historico{
+        left: 70%;
+    }
+}
+
+@media only screen and (min-width:790px) and (max-width:884px){
+    #historico{
+        right: 0%;
+    }
+}
+
+@media only screen and (min-width:855px) and (max-width:885px){
+    #historico{
+        right: 5%;
+    }
+}
+
+@media only screen and (min-width:886px) and (max-width:916px){
+    #historico{
+        right: 7%;
+    }
+}
+
+@media only screen and (min-width:917px) and (max-width:932px){
+    #historico{
+        right: 9%;
+    }
+}
+
+
+
